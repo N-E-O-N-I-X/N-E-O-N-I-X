@@ -1,6 +1,6 @@
-<div style="text-align:center">
-  <img alt="Header" src="https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/header.png">
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/N-E-O-N-I-X/N-E-O-N-I-X/main/assets/header.png" alt="Header">
+</p>
 
 ![About me](https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/about.png)
 
@@ -11,4 +11,4 @@
   <img src="https://img.shields.io/badge/-JAVASCRIPT-191919?style=for-the-badge&logo=javascript">
 </p>
 
-<h3 style="text-align:center"> Connect with me</h3>
+<h3 align="center"> Connect with me</h3>
