@@ -1,4 +1,4 @@
-[![Header](https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/header.png)](https://github.com/N-E-O-N-I-X)
+[![Header](https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/header.png){height="600" style="display: block; margin: 0 auto"}](https://github.com/N-E-O-N-I-X)
 
 ![About me](https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/about.png)
 
