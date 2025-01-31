@@ -1,6 +1,6 @@
-[![Header](https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/HEADER.png)](https://github.com/N-E-O-N-I-X)
+[![Header](https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/header.mp4)](https://github.com/N-E-O-N-I-X)
 
-About me
+![About me](https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/about.png)
 
 Languages and Tools
 
