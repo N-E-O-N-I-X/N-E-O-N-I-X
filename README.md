@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/N-E-O-N-I-X/N-E-O-N-I-X/main/assets/header.png" alt="Header">
 </p>
 
-![About me](https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/aboutme.png)
+![About me](https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/welcome.png)
 
 ___
 
