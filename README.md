@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/N-E-O-N-I-X/N-E-O-N-I-X/main/assets/neonix.png" alt="Header">
+  <img src="https://raw.githubusercontent.com/N-E-O-N-I-X/N-E-O-N-I-X/main/assets/header.png" alt="Header">
 </p>
 
 ![About me](https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/welcome.png)
