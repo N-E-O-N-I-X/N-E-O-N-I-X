@@ -26,3 +26,6 @@ ___
 [![INSTAGRAM](https://img.shields.io/badge/-INSTAGRAM-191919?style=for-the-badge&logo=instagram)](https://www.instagram.com/timuraridi)
 
 </div>
+
+---
+![NEONIX's GitHub stats](https://github-readme-stats.vercel.app/api?username=N-E-O-N-I-X&theme=dark&show_icons=true)
