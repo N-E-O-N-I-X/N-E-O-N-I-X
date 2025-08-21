@@ -29,4 +29,4 @@ ___
 
 ---
 ![NEONIX's GitHub stats](https://github-readme-stats.vercel.app/api?username=N-E-O-N-I-X&theme=dark&show_icons=true)
-<img alt="coding bird" align="right" width="300" src="https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/birdy.gif">
+<img alt="coding bird" align="right" width="270" src="https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/birdy.gif">
