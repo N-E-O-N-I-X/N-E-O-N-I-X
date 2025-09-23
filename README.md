@@ -9,8 +9,9 @@ ___
 <h3 align="center"> Languages and Tools</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/HTML-191919?style=for-the-badge&logo=html5">
-<img src="https://img.shields.io/badge/CSS-191919?style=for-the-badge&logo=css&logoColor=1572B6">
+  <img src="https://img.shields.io/badge/CSS-191919?style=for-the-badge&logo=css&logoColor=1572B6">
   <img src="https://img.shields.io/badge/JAVASCRIPT-191919?style=for-the-badge&logo=javascript">
+  <img src="https://img.shields.io/badge/TYPESCRIPT-191919?style=for-the-badge&logo=typescript&logoColor=3178C6">
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/GIT-191919?style=for-the-badge&logo=git">
