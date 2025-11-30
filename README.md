@@ -33,12 +33,9 @@ ___
 </div>
 
 ---
-<div style="display: flex; align-items: center;">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=N-E-O-N-I-X&theme=dark" alt="GitHub Streak">
-  </a>
 
-  <div style="flex: 1;"></div>  <!-- spacer -->
+<div align="center">
 
-  <img alt="coding bird" width="250" src="https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/birdy.gif">
+[![GitHub Streak](https://streak-stats.demolab.com/?user=N-E-O-N-I-X&theme=dark)](https://git.io/streak-stats)
+
 </div>
