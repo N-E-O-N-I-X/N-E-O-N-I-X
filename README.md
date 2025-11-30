@@ -33,7 +33,7 @@ ___
 </div>
 
 ---
-<div style="display: flex; align-items: center;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
   <a href="https://git.io/streak-stats">
     <img src="https://streak-stats.demolab.com/?user=N-E-O-N-I-X&theme=dark" alt="GitHub Streak">
   </a>
