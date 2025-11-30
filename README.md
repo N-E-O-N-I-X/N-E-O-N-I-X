@@ -33,6 +33,9 @@ ___
 </div>
 
 ---
-[![GitHub Streak](https://streak-stats.demolab.com/?user=N-E-O-N-I-X&theme=dark)](https://git.io/streak-stats)
-<!-- ![GitHub stats](https://github-readme-stats.vercel.app/api?username=N-E-O-N-I-X&theme=dark&show_icons=true) -->
-<img alt="coding bird" align="right" width="220" src="https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/birdy.gif">
+<div style="display: flex; align-items: center;">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com/?user=N-E-O-N-I-X&theme=dark" alt="GitHub Streak">
+  </a>
+  <img alt="coding bird" width="250" src="https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/birdy.gif">
+</div>
