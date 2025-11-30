@@ -33,5 +33,6 @@ ___
 </div>
 
 ---
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=N-E-O-N-I-X&theme=dark&show_icons=true)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=N-E-O-N-I-X&theme=dark)](https://git.io/streak-stats)
+<!-- ![GitHub stats](https://github-readme-stats.vercel.app/api?username=N-E-O-N-I-X&theme=dark&show_icons=true) -->
 <img alt="coding bird" align="right" width="270" src="https://github.com/N-E-O-N-I-X/N-E-O-N-I-X/blob/main/assets/birdy.gif">
