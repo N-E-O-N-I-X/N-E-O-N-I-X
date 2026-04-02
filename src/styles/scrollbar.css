@@ -1,0 +1,43 @@
+/* 1) прячем нативный скроллбар */
+html, body {
+  scrollbar-width: none; /* Firefox */
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* 2) overlay-скроллбар */
+.scrollbar-overlay {
+  position: fixed;
+  right: 8px;
+  top: 20px;
+  bottom: 20px;
+  width: 12px;
+  pointer-events: auto;
+  z-index: 9999;
+  opacity: 0;
+  transform: translateX(4px);
+  transition: opacity .4s ease, transform .4s ease;
+}
+
+.scrollbar-overlay.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scrollbar-thumb {
+  position: absolute;
+  left: 0;
+  width: 12px;
+  border-radius: 5px;
+  background: var(--scrolbar-color); 
+  cursor: pointer;
+}
+
+@media (width < 600px) {
+  .scrollbar-thumb {
+    width: 8px;
+  }
+}

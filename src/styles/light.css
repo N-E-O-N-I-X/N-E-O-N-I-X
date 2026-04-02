@@ -1,0 +1,37 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+:root.theme-light {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+  --bg-color: #fdfcfb;
+  --bg-second-color: rgba(233, 233, 233, 0.753);
+  --main-color: #fdfcfb;
+  --burger-color: rgba(233, 233, 233, 0.925);
+  --burger-itm-hover-color: rgba(216, 216, 216, 0.925);
+  --burger-itm-color: #1f1f1f7a;
+  --main-color: #1f1f1f;
+  --contrast-color: #fdfcfb;
+  --font-color: #1f1f1f;
+  --scrolbar-color: #1f1f1fbd;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fdfcfb;
+    --bg-second-color: rgba(233, 233, 233, 0.753);
+    --main-color: #fdfcfb;
+    --burger-color: rgba(233, 233, 233, 0.925);
+    --burger-itm-hover-color: rgba(216, 216, 216, 0.925);
+    --burger-itm-color: #1f1f1f7a;
+    --main-color: #1f1f1f;
+    --contrast-color: #fdfcfb;
+    --font-color: #1f1f1f;
+    --scrolbar-color: #1f1f1fbd;
+  }
+}

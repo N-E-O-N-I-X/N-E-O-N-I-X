@@ -1,0 +1,26 @@
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
+:root {
+  --bg-color: #1f1f1f;
+  --bg-second-color: rgba(20, 20, 20, 0.664);
+  --main-color: #fdfcfb;
+  --burger-color: rgba(20, 20, 20, 0.664);
+  --burger-itm-hover-color: rgba(20, 20, 20, 0.938);
+  --burger-itm-color: #fdfcfb79;
+  --contrast-color: #1f1f1f;
+  --font-color: #fdfcfb;
+  --scrolbar-color: #fdfcfba1;
+  --ru-font: 'Hasklig', 
+    'SF Mono', Menlo, 
+    Consolas, 
+    'Courier New', 
+    monospace;
+    
+  --en-font: 'FiraCode', 
+    'SF Mono', Menlo, 
+    Consolas, 
+    'Courier New', 
+    monospace;
+  }

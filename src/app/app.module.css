@@ -1,15 +1,43 @@
-.body {
-  width: 100%;
-  height: 100vh;
+.page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  background-color: var(--bg-color);
 }
 
 .heading {
   margin: auto;
-  color: #221a13;
+  color: var(--main-color);
   font-size: 60px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'hasklig',Arial, sans-serif;
+  text-align: center;
+}
+
+.fontsGrid {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.fontsList {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fontsList li {
+  list-style: none;
+  padding: 6px 8px;
+  color: var(--main-color);
+}
+
+.hasklig {
+  font-family: 'hasklig',Arial, sans-serif;
+}
+
+.firacode {
+  font-family: 'firacode', monospace;
 }
