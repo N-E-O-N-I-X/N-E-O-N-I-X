@@ -18,11 +18,10 @@ ___
   <img src="https://img.shields.io/badge/NODE.JS-191919?style=for-the-badge&logo=node.js">
   <img src="https://img.shields.io/badge/VITE-191919?style=for-the-badge&logo=vite">
   <img src="https://img.shields.io/badge/STORYBOOK-191919?style=for-the-badge&logo=storybook">
-  <!-- <img src="https://img.shields.io/badge/WEBPACK-191919?style=for-the-badge&logo=webpack"> -->
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/REACT-191919?style=for-the-badge&logo=react">
-  <!-- <img src="https://img.shields.io/badge/DOCKER-191919?style=for-the-badge&logo=docker"> -->
+  <img src="https://img.shields.io/badge/redux-191919?style=for-the-badge&logo=redux">
 </p>
 <br>
 
