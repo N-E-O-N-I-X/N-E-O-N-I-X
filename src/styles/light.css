@@ -1,0 +1,16 @@
+:root.theme-light {
+--bg-color: #f4eac7;
+  --main-color: #013e37;
+  --font-color: #013e37;
+  --second-font-color: #1f1f1f;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #f4eac7;
+    --main-color: #013e37;
+    --font-color: #013e37;
+    --second-font-color: #1f1f1f;
+    --error-font-color: #a03030;
+  }
+}

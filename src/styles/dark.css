@@ -1,0 +1,7 @@
+:root.theme-dark {
+  --bg-color: #013e37;
+  --main-color: #ffefb3;
+  --font-color: #ffefb3;
+  --second-font-color: #fff;
+  --error-font-color: #a03030;
+}

@@ -1,18 +1,17 @@
-// import '../styles/fonts.css'; 
-// import '../styles/variables.css';
-// import '../styles/light.css';
-// import '../styles/dark.css';
-// import '../styles/scrollbar.css';
-// import '../styles/animations.css';
-import style from './app.module.css';
+import '../styles/fonts.css'
+import '../styles/variables.css'
+import '../styles/light.css'
+import '../styles/dark.css'
 
-// import { useTheme } from '../hooks/useTheme';
+import { RouterProvider } from 'react-router-dom'
+import { appRouter } from './appRouter'
 
-export const App = () => {
+import { useTheme } from '../hooks/useTheme'
 
-  return (
-    <body className={style.body}>
-      <h1 className={style.heading}>My future CV</h1>
-    </body>
-  );
-};
+export const App: React.FC = () => {
+  useTheme()
+
+  return <RouterProvider router={appRouter} />
+}
+
+export default App
