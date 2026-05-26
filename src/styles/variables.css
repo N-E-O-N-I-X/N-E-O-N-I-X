@@ -1,12 +1,9 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
 :root {
   --bg-color: #013e37;
   --main-color: #ffefb3;
   --font-color: #ffefb3;
   --second-font-color: #fff;
+  --error-font-color: #a03030;
   --ru-font: 'Hasklig', 
     'SF Mono', Menlo, 
     Consolas, 
@@ -18,4 +15,6 @@
     Consolas, 
     'Courier New', 
     monospace;
+
+    --font-family: var(--ru-font);
   }
