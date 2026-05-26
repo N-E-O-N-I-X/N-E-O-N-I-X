@@ -8,7 +8,7 @@
 
 .heading {
   margin: auto;
-  color: var(--main-color);
+  color: var(--font-color);
   font-size: 60px;
   font-family: 'hasklig',Arial, sans-serif;
   text-align: center;
@@ -16,6 +16,7 @@
 
 .fontsGrid {
   margin: auto;
+  color: var(--second-font-color);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
@@ -23,6 +24,7 @@
 
 .fontsList {
   margin: auto;
+  color: var(--second-font-color);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -31,7 +33,6 @@
 .fontsList li {
   list-style: none;
   padding: 6px 8px;
-  color: var(--main-color);
 }
 
 .hasklig {

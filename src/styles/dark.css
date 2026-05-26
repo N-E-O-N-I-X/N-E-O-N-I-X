@@ -8,14 +8,5 @@
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
-  */
-  --bg-color: #1f1f1f;
-  --bg-second-color: rgba(20, 20, 20, 0.664);
-  --main-color: #fdfcfb;
-  --burger-color: rgb(20, 20, 20);
-  --burger-itm-hover-color: rgb(17, 17, 17);
-  --burger-itm-color: #fdfcfb79;
-  --contrast-color: #1f1f1f;
-  --font-color: #fdfcfb;
-  --scrolbar-color: #fdfcfba1;
+  */  
 }
