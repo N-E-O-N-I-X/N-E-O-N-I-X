@@ -13,7 +13,6 @@
   --main-color: #013e37;
   --font-color: #013e37;
   --second-font-color: #1f1f1f;
-  --scrolbar-color: #013e37;
 }
 
 @media (prefers-color-scheme: light) {
@@ -22,6 +21,5 @@
     --main-color: #013e37;
     --font-color: #013e37;
     --second-font-color: #1f1f1f;
-    --scrolbar-color: #013e37;
   }
 }

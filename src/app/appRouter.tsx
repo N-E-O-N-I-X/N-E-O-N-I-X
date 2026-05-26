@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 
-// import { MainLayout } from '../layouts/MainLayout'
-// import { HomePage } from '../pages/Home'
+import { MainLayout } from '../layouts/MainLayout'
+import { HomePage } from '../pages/Home/home'
 // import { PortfolioPage } from '../pages/Portfolio'
 // import { ResumePage } from '../pages/Resume'
 // import { ContactsPage } from '../pages/Contacts'
@@ -17,23 +17,23 @@ export const appRouter = createBrowserRouter([
         index: true,
         element: <HomePage />,
       },
-      {
-        path: 'portfolio',
-        element: <PortfolioPage />,
-      },
-      {
-        path: 'resume',
-        element: <ResumePage />,
-      },
-      {
-        path: 'contacts',
-        element: <ContactsPage />,
-      },
-      {
-        path: '500',
-        element: <ServerErrorPage />,
-      },
-      { path: '*', element: <NotFoundPage /> },
+      // {
+      //   path: 'portfolio',
+      //   element: <PortfolioPage />,
+      // },
+      // {
+      //   path: 'resume',
+      //   element: <ResumePage />,
+      // },
+      // {
+      //   path: 'contacts',
+      //   element: <ContactsPage />,
+      // },
+      // {
+      //   path: '500',
+      //   element: <ServerErrorPage />,
+      // },
+      // { path: '*', element: <NotFoundPage /> },
     ],
   },
 ])
