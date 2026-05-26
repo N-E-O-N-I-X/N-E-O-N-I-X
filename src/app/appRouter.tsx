@@ -5,6 +5,8 @@ import { createBrowserRouter } from 'react-router-dom'
 // import { PortfolioPage } from '../pages/Portfolio'
 // import { ResumePage } from '../pages/Resume'
 // import { ContactsPage } from '../pages/Contacts'
+// import { NotFoundPage } from '../pages/Error/NotFoundPage'
+// import { ServerErrorPage } from '../pages/Error/ServerErrorPage'
 
 export const appRouter = createBrowserRouter([
   {
@@ -26,7 +28,12 @@ export const appRouter = createBrowserRouter([
       {
         path: 'contacts',
         element: <ContactsPage />,
-      }
+      },
+      {
+        path: '500',
+        element: <ServerErrorPage />,
+      },
+      { path: '*', element: <NotFoundPage /> },
     ],
   },
 ])
