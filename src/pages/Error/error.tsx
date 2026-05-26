@@ -10,7 +10,7 @@ export const ErrorPage: React.FC = () => {
       <img className={style.gif} src={codingGif} alt="funny gif" />
       <h1 className={style.error}>error</h1>
       <p>page not found</p>
-      <Link  to="/">
+      <Link to="/">
         <span className={style.link}>go home</span>
       </Link>
     </div>
