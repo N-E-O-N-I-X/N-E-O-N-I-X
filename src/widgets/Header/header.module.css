@@ -1,0 +1,25 @@
+.container {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.lang {
+  color: var(--second-font-color);
+  font-size: clamp(0.875rem, 0.75rem + 0.5714vw, 1.25rem);
+  cursor: pointer;
+  outline: none;
+  background: none;
+  border: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.lang:hover,
+.lang:focus {
+  color: var(--font-color);
+  opacity: 0.9;
+}
+
+.lang:active {
+  transform: scale(0.9);
+}

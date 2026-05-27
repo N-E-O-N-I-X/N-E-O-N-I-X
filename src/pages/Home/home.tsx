@@ -1,12 +1,14 @@
 import React from 'react'
-// import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next'
 
 import style from './home.module.css'
 
 export const HomePage: React.FC = () => {
+  const { i18n, t } = useTranslation() 
+
   return (
     <div className={style.page}>
-      <h1 className={style.heading}>main page</h1>
+      <h1 className={style.heading}>{t('main')}</h1>
     </div>
   )
 }
