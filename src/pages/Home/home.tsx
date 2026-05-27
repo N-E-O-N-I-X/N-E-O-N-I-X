@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import style from './home.module.css'
 
 export const HomePage: React.FC = () => {
-  const { i18n, t } = useTranslation() 
+  const { i18n, t } = useTranslation('home') 
 
   return (
     <div className={style.page}>

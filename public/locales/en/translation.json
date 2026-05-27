@@ -1,9 +1,0 @@
-{ 
-  "changeLang": "Рус (А-Я)",
-  "main": "main page",
-  "errorPage": {
-    "error": "error",
-    "notFound": "page not found",
-    "goHome": "go home"
-  }
-}
