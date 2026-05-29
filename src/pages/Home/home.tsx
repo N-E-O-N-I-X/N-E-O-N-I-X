@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import { RightGrid } from '../../components/Grid/RightGrid'
 
 import style from './home.module.css'
 
@@ -8,7 +9,10 @@ export const HomePage: React.FC = () => {
 
   return (
     <div className={style.page}>
-      <h1 className={style.heading}>{t('main')}</h1>
+      
+      <RightGrid>
+        <h1 className={style.heading}>{t('main')}</h1>
+      </RightGrid>
     </div>
   )
 }
