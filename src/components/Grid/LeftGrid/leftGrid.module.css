@@ -6,4 +6,64 @@
   background-color: var(--grid-bg-color);
   border: 2px solid var(--grid-border-color);
   border-radius: 14px 0 0 14px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 10px;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 4px solid var(--grid-border-color);
+}
+
+.avatarContainer{
+  width: 50%;
+  aspect-ratio: 1/1;
+  border-radius: 10%;
+  border: 2px solid var(--grid-border-color);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 20px;
+  color: var(--font-color);
+  font-weight: bold;
+}
+
+.positionContainer {
+  padding: 4px 6px;
+  border-radius: 2%;
+  border: 2px solid var(--grid-border-color);
+  background-color: var(--grid-bg-color);
+}
+
+.position {
+  font-size: 12px;
+  color: var(--second-font-color);
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: var(--grid-border-color);
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 4px 6px;
+  align-items: start;
+  justify-content: start;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 4px solid var(--grid-border-color);
 }

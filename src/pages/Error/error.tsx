@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next'
 import style from './error.module.css'
 
 export const ErrorPage: React.FC = () => {
-  const { i18n, t } = useTranslation('error')
+  const { t } = useTranslation('error')
 
   return (
     <div className={style.page}>

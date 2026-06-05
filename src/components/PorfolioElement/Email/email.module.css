@@ -1,0 +1,31 @@
+.title {
+  text-transform: uppercase; 
+  font-size: 16px;
+  color: var(--second-font-color);
+  margin-left: 10px;
+}
+
+.button {
+  cursor: pointer;
+  background-color: var(--grid-bg-color);
+  color: var(--second-font-color);
+  font-size: 12px;
+  border: none;
+  border-radius: 10%;
+  outline: none;
+  padding: 6px 10px;
+  box-shadow: var(--shadow-element);
+}
+
+.tooltip {
+  position: absolute;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: var(--main-color);
+  opacity: 0.8;
+  background-color: var(--grid-bg-color);
+  padding: 3px 5px;
+  border-radius: 5px;
+  left: 70%;
+  bottom: 50%;
+}

@@ -8,9 +8,5 @@ type RightGridProps = {
 }
 
 export const RightGrid: React.FC<RightGridProps> = ({ children }) => {
-  return (
-    <div className={style.container}>
-      {children}
-    </div>
-  )
+  return <div className={style.container}>{children}</div>
 }

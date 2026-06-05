@@ -1,0 +1,1 @@
+export { PortfolioElement } from './portfolioElement'

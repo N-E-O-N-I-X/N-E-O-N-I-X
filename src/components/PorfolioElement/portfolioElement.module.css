@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.icon {
+  background-color: var(--grid-bg-color);
+  width: 40px;
+  aspect-ratio: 1/1;
+  border-radius: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+  box-shadow: var(--shadow-element);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: start;
+  justify-content: center;
+  position: relative;
+}

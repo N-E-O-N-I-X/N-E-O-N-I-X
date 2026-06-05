@@ -9,7 +9,7 @@
 
 .container {
   width: 70%;
-  height: 60%;
+  height: 80%;
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 20px;

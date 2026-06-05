@@ -2,7 +2,7 @@ import React from 'react'
 import style from './header.module.css'
 import { useTranslation } from 'react-i18next'
 
-export const Header: React.FC = () => { 
+export const Header: React.FC = () => {
   const { i18n, t } = useTranslation(`header`)
 
   const handleChangeLanguage = () => {
@@ -11,7 +11,9 @@ export const Header: React.FC = () => {
 
   return (
     <div className={style.container}>
-      <button onClick={handleChangeLanguage} className={style.lang}>{t('changeLang')}</button>
+      <button onClick={handleChangeLanguage} className={style.lang}>
+        {t('changeLang')}
+      </button>
     </div>
   )
 }

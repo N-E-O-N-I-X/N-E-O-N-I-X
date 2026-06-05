@@ -6,6 +6,9 @@
   --error-font-color: #a03030;
   --grid-bg-color: #1e1e1ea1;
   --grid-border-color: #1e1e1ecc;
+  --avatar-bg-color: #1e1e1ea1;
+  --avatar-border-color: #1e1e1ecc;
+  --shadow-element: 2px 2px 4px rgba(19, 19, 19, 0.724);
   --ru-font: 'Hasklig', 
     'SF Mono', Menlo, 
     Consolas, 
@@ -18,5 +21,9 @@
     'Courier New', 
     monospace;
 
-    --font-family: var(--ru-font);
-  }
+  --font-family: var(--ru-font);
+}
+
+html, body {
+  font-family: var(--font-family);
+}

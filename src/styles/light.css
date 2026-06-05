@@ -1,8 +1,14 @@
 :root.theme-light {
---bg-color: #f4eac7;
+  --bg-color: #f4eac7;
   --main-color: #013e37;
   --font-color: #013e37;
   --second-font-color: #1f1f1f;
+  --error-font-color: #a03030;
+  --grid-bg-color: #e5e1e1a1;
+  --grid-border-color: #bba2a2cc;
+  --avatar-bg-color: #e5e1e1a1;
+  --avatar-border-color: #bba2a2cc;
+  --shadow-element: 2px 2px 4px rgba(126, 124, 124, 0.4);;
 }
 
 @media (prefers-color-scheme: light) {
@@ -12,5 +18,10 @@
     --font-color: #013e37;
     --second-font-color: #1f1f1f;
     --error-font-color: #a03030;
+    --grid-bg-color: #e5e1e1a1;
+    --grid-border-color: #bba2a2cc;
+    --avatar-bg-color: #e5e1e1a1;
+    --avatar-border-color: #bba2a2cc;
+    --shadow-element: 2px 2px 4px rgba(126, 124, 124, 0.4);;
   }
 }
