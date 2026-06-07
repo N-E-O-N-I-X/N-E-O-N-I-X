@@ -11,7 +11,7 @@ export const BirthdayElement: React.FC = () => {
   return (
     <PortfolioElement icon={<img src={calendarSvg} alt="" />}>
       <h3 className={style.title}>{t('birthday')}</h3>
-      <button className={style.content}>{t('date')}</button>
+      <div className={style.content}>{t('date')}</div>
     </PortfolioElement>
   )
 }

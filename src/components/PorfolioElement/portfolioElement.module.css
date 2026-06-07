@@ -4,7 +4,18 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-  
+}
+
+@media (width < 1100px) {
+  .container {
+    gap: 12px;
+  }
+}
+
+@media (width < 600px) {
+  .container {
+    display: block;
+  }
 }
 
 .icon {
@@ -17,6 +28,18 @@
   justify-content: center;
   padding: auto;
   box-shadow: var(--shadow-element);
+}
+
+@media (width < 1100px) {
+  .icon {
+    width: 34px;
+  }
+}
+
+@media (width < 600px) {
+  .icon {
+    display: none;
+  }
 }
 
 .content {

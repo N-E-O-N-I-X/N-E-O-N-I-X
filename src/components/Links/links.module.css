@@ -1,9 +1,19 @@
 .container {
   display: flex;
-  width: 100%;
-  max-width: 60%;
-  margin-top: 10px;
+  width: 80%;
+  padding: 20px 4px;
   justify-content: space-around;
+  border-top: 4px solid var(--grid-border-color);
+}
+
+@media (width < 700px) {
+  .container {
+    flex-direction: column;
+    border: none;
+    padding: 0;
+    width: auto;
+    gap: 20px;
+  }
 }
 
 .link {

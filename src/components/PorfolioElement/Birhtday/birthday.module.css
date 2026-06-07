@@ -1,8 +1,14 @@
 .title {
   text-transform: uppercase; 
-  font-size: 16px;
+  font-size: clamp(0.875rem, 0.8333rem + 0.1905vw, 1rem);
   color: var(--second-font-color);
   margin-left: 10px;
+}
+
+@media (width < 600px) {
+  .title {
+    margin-left: 0px;
+  }
 }
 
 .content {
@@ -14,4 +20,16 @@
   outline: none;
   padding: 6px 10px;
   box-shadow: var(--shadow-element);
+}
+
+@media (width < 1100px) {
+  .content {
+    padding: 4px 8px;
+  }
+}
+
+@media (width < 600px) {
+  .content {
+    padding: 4px 6px;
+  }
 }

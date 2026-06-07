@@ -8,3 +8,9 @@
   border: 2px solid var(--grid-border-color);
   border-radius: 0 14px 14px 0;
 }
+
+@media (width < 700px) {
+  .container {
+    border-radius: 0 0 14px 14px;
+  }
+}
