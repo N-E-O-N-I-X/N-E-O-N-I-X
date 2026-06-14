@@ -5,6 +5,12 @@
   margin-left: 10px;
 }
 
+@media (width < 1100px) {
+  .title {
+    margin-left: 4px;
+  }
+}
+
 @media (width < 600px) {
   .title {
     margin-left: 0px;
