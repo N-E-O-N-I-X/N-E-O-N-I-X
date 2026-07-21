@@ -1,5 +1,5 @@
 import React from 'react'
-import codingGif from '../../assets/media/coding.gif'
+import dinoPng from '../../assets/media/dino.png'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
@@ -10,7 +10,7 @@ export const ErrorPage: React.FC = () => {
 
   return (
     <div className={style.page}>
-      <img className={style.gif} src={codingGif} alt="funny gif" />
+      <img className={style.dino} src={dinoPng} alt="funny dino" />
       <h1 className={style.error}>{t('text.error')}</h1>
       <p>{t('text.notFound')}</p>
       <Link to="/">
